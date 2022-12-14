@@ -1,0 +1,156 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 93
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,198,74,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,252,74,50,14
+    LTEXT           "Установить стартовую позицию робота:",IDC_STATIC,16,18,140,8
+    LTEXT           "x=",IDC_STATIC,168,18,17,11
+    EDITTEXT        IDC_EDIT1,180,17,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "y=",IDC_STATIC,220,18,13,10
+    EDITTEXT        IDC_EDIT2,231,17,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Установить финишную позицию робота:",IDC_STATIC,17,44,143,10
+    LTEXT           "x=",IDC_STATIC,169,44,17,9
+    EDITTEXT        IDC_EDIT3,181,44,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "y=",IDC_STATIC,221,44,15,10
+    EDITTEXT        IDC_EDIT4,231,44,24,12,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 281, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK_2,170,61,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL_2,224,61,50,14
+    LTEXT           "Координаты центра круга:",IDC_STATIC,17,18,98,11
+    LTEXT           "x=",IDC_STATIC,123,18,16,10
+    EDITTEXT        IDC_EDIT1_2,137,17,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "y=",IDC_STATIC,176,18,17,9
+    EDITTEXT        IDC_EDIT2_2,189,17,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Радиус круга:",IDC_STATIC,17,39,52,9
+    LTEXT           "r=",IDC_STATIC,75,39,16,9
+    EDITTEXT        IDC_EDIT3_2,87,38,24,12,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "robot_icon-icons.com_60269.ico"
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
